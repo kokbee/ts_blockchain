@@ -1,0 +1,27 @@
+{
+  "name": "ts_blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -onSuccess \"node ./dist/test/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokbee/ts_blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kokbee/ts_blockchain/issues"
+  },
+  "homepage": "https://github.com/kokbee/ts_blockchain#readme",
+  "dependencies": {
+    "@types/crypto-js": "^4.0.1",
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "typescript": "^4.3.5"
+  }
+}
